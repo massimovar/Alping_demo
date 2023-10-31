@@ -1,2 +1,8 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=3cad299a83e65276688ca1ff47db792b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

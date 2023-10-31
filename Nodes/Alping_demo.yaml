@@ -49,6 +49,11 @@ Children:
     Value: 8
 - Name: AlarmConfiguration
   Type: PropertyGroup
+  Children:
+  - Name: DynamicVariablesPollingTime
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:0.1000000"
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml

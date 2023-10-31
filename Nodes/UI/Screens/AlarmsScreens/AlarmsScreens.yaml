@@ -1,0 +1,11 @@
+Name: AlarmsScreens
+Type: FolderType
+Children:
+- Name: History
+  Id: g=5f73cc710a3af8fd41015177a00a066d
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Active
+  Id: g=c91d38d2a1bd227249662b4484a716bb
+  Supertype: Screen
+  ReferenceType: HasComponent

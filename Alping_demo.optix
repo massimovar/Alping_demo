@@ -21,13 +21,17 @@ Project:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
    Version: 5.3
-  5:
-   Uri: 'urn:FTOptix:NativeUI'
-   Module: FTOptix.NativeUI
-   Version: 2.0
   6:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  9:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
  Nodes:
  - File: Nodes/Alping_demo.yaml
