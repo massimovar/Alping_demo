@@ -1,0 +1,18 @@
+Project:
+ Name: Alping_demo_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.3
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: Alping_demo
+   RelativePath: Alping_demo.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+ Nodes: []
