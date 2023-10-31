@@ -1,2 +1,4 @@
 Name: CommDrivers
 Type: CommDriversCategoryFolder
+Children:
+- File: S7TCPDriver1/S7TCPDriver1.yaml

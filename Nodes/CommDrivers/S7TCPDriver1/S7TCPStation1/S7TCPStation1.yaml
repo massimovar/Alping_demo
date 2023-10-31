@@ -1,0 +1,67 @@
+Name: S7TCPStation1
+Id: g=21ed475964cc5ffa89acfca86daf7d09
+Type: S7TCPStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 243
+- Name: MaximumGapInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 4
+- Name: IPAddress
+  Id: g=e77e553a67fe66b5f6c347b217d703e3
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.10.220"
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 102
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:5.0000000"
+- Name: RemoteDeviceId
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 1
+- Name: RemoteRack
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 0
+- Name: RemoteSlot
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 1
+- Name: OperationCode
+  Id: g=2d1b2223609c9253d8f17d2d404217cb
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=10;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml

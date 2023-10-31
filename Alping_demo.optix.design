@@ -15,4 +15,13 @@ Project:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
    Version: 3.1
- Nodes: []
+  5:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:S7TagImporter'
+   Module: FTOptix.S7TagImporter
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/S7TCPDriver1/S7TCPStation1/TagImporter.yaml

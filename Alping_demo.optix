@@ -33,5 +33,13 @@ Project:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
    Version: 2.0
+  10:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.0
+  11:
+   Uri: 'urn:FTOptix:S7TCP'
+   Module: FTOptix.S7TCP
+   Version: 1.0
  Nodes:
  - File: Nodes/Alping_demo.yaml

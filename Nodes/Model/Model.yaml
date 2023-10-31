@@ -6,3 +6,4 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- File: PLC tags/PLC tags.yaml

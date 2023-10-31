@@ -1,0 +1,63 @@
+Name: PLC tags
+Type: FolderType
+Children:
+- Name: Bool_00
+  Id: g=5770d70dd48ec59e5234daf147812d95
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/Bool_00"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Int_00
+  Id: g=2dc967884aa4435864fc430f117a658f
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/Int_00"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Real_00
+  Id: g=b2b4e1470001dd277f8b6b1cec395443
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/Real_00"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: String_00
+  Id: g=c59661090c0811427fcef066a4e16327
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/String_00"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
