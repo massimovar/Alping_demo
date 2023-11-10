@@ -1,0 +1,289 @@
+Name: Motors
+Id: g=b18b6d0c5e815850f7d45e0d151e1038
+Type: FolderType
+Children:
+- Name: MotorAB
+  Id: g=7a1a066634b8aae4adb9dd1d635aaa0e
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Speed1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Temperature1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: AlarmsReset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/AlarmsReset1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Status1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: DisplayName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor A1"
+  - Name: StatusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Status"
+- Name: Motor2
+  Id: g=8885e12337dfc0a7e8a5ad835414d024
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Speed2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Temperature2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: AlarmsReset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/AlarmsReset2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Status2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: DisplayName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor M2"
+  - Name: StatusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Status"
+- Name: Motor3
+  Id: g=4b4dacff8d0223eb95704fd74c6f5ed1
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Speed3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Temperature3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: AlarmsReset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/AlarmsReset3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Status3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: DisplayName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor K3"
+  - Name: StatusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Status"

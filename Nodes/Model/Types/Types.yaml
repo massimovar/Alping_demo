@@ -1,0 +1,108 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Motor
+  Id: g=f408241151824f925724f05c2c0115ad
+  Supertype: BaseObjectType
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: AlarmsReset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 0
+  - Name: DisplayName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor name not set"
+  - Name: StatusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Status"
+      - Name: Pairs
+        Type: BaseObjectType
+        ModellingRule: None
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Byte
+            ModellingRule: None
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: None
+            Value: "#000000"
+        - Name: Pair1
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Byte
+            ModellingRule: None
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: None
+            Value: "#ffff00"
+        - Name: Pair2
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Byte
+            ModellingRule: None
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: None
+            Value: "#ffa500"
+        - Name: Pair3
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: Byte
+            ModellingRule: None
+            Value: 3
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: None
+            Value: "#ff0000"

@@ -41,5 +41,9 @@ Project:
    Uri: 'urn:FTOptix:S7TCP'
    Module: FTOptix.S7TCP
    Version: 1.0
+  12:
+   Uri: 'urn:FTOptix:Modbus'
+   Module: FTOptix.Modbus
+   Version: 1.0
  Nodes:
  - File: Nodes/Alping_demo.yaml

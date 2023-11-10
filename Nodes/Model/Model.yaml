@@ -7,3 +7,5 @@ Children:
   DataType: Boolean
   Value: false
 - File: PLC tags/PLC tags.yaml
+- File: Types/Types.yaml
+- File: Motors/Motors.yaml

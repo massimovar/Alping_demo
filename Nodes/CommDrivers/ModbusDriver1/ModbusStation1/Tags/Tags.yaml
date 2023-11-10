@@ -1,0 +1,177 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: On1
+  Id: g=957701c22d999f0fdf6fac9dcdf0f69c
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+- Name: On2
+  Id: g=20006942ca4ed6128931d7d144bac168
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: On3
+  Id: g=9341574035e790f8d41ba73b7a0ebc4d
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: Speed1
+  Id: g=fbffe390c0b5f907205b99028fb737f4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+- Name: Speed2
+  Id: g=a54c638c56932cde29e5aad2cd5c3967
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: Speed3
+  Id: g=87e9fd000c9b0829d4482fcb87302b89
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: Temperature1
+  Id: g=3c24f3e3d3c796072ba00117fd62b7e4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: Temperature2
+  Id: g=3028329f61a5bc784d7720710c90db23
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: Temperature3
+  Id: g=deeff3af4aadebfe518b61a87b1d2a52
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+- Name: AlarmsReset1
+  Id: g=14b28b913b14f72e027b77db93d95110
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: AlarmsReset2
+  Id: g=eb2326b75ee4b54ca973226ae131307b
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: AlarmsReset3
+  Id: g=9d27896ee4480262b9bc9e5342a59a33
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+- Name: Status1
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 6
+- Name: Status2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 7
+- Name: Status3
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8

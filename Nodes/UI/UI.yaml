@@ -236,6 +236,12 @@ Children:
     Children:
     - Name: Default
       Type: ChartStyle
+      Children:
+      - Name: GridColor
+        Id: g=bcd1bbf6b4219ff4a03737412036974b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
   - Name: DataListStyles
     Type: BaseObjectType
     Children:
@@ -295,7 +301,11 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../../../../Model/PLC tags/Int_00"
+              Value: "../../../../../../../Model/Int_00_temp"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
     - Name: H1_dialog
       Type: LabelStyle
       Children:
@@ -303,6 +313,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 30.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffff00"
   - Name: RadioButtonStyles
     Type: BaseObjectType
     Children:
@@ -313,6 +327,15 @@ Children:
     Children:
     - Name: Default
       Type: CheckBoxStyle
+  - Name: Screen
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
 - Name: FriendlyDark1
   Type: StyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -837,6 +860,158 @@ Children:
     DataType: String
     ModellingRule: Optional
     Value: "Alping_demo"
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Session}/IsWeb"
+  - Name: AlwaysOnTop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: DialogFlag
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Alping_demo/Model/PLC tags/Int_00"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: DialogFlagTransitioned
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Type: BaseVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: Transition
+      Type: BaseVariableType
+      DataType: VariableTransition
+      Value: 0
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../DialogFlag"
+    - Name: VariableTransitionEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=2;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: Dialog
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
+              Value: "/Objects/Alping_demo/UI/Dialogs/NavigationPanelWidgetDialog"
+            - Name: AliasNode
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: ParentItem
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogParentItemDescription"}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../..@NodeId"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+          - Name: OutputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogNodeIdDescription"}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: EventArguments
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Type: BaseVariableType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: NewValue
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
   - Name: MainWrapper
     Type: ColumnLayout
     Children:
@@ -1031,6 +1206,22 @@ Children:
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel6
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Alping_demo/UI/Screens/Motors"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: CurrentPanel
         Type: NodePointer
         DataType: NodeId
@@ -1044,7 +1235,7 @@ Children:
       - Name: CurrentTabIndex
         Type: BaseDataVariableType
         DataType: Int32
-        Value: 4
+        Value: 6
       - Class: Reference
         Target: ns=3;i=1181
         Direction: Forward
@@ -1108,7 +1299,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 150.0
+        Value: 25.0
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -1124,158 +1315,6 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#f2f2f2"
-  - Name: FullScreen
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "{Session}/IsWeb"
-  - Name: AlwaysOnTop
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: DialogFlag
-    Type: BaseDataVariableType
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/Alping_demo/Model/PLC tags/Int_00"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        ModellingRule: Optional
-        Value: 2
-  - Name: DialogFlagTransitioned
-    Type: VariableTransitionEventDispatcher
-    Children:
-    - Name: Value
-      Type: BaseVariableType
-      DataType: Double
-      Value: 0.0
-    - Name: Transition
-      Type: BaseVariableType
-      DataType: VariableTransition
-      Value: 0
-    - Name: VariableNodePath
-      Type: BaseVariableType
-      DataType: NodePath
-      Value: "../DialogFlag"
-    - Name: VariableTransitionEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=2;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/UICommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: ns=2;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "OpenDialog"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: Dialog
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-              Value: "/Objects/Alping_demo/UI/Dialogs/NavigationPanelWidgetDialog"
-            - Name: AliasNode
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":3,"TextId":"OpenDialogAliasNodeDescription"}
-              ValueRank: ScalarOrOneDimension
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: ParentItem
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":3,"TextId":"OpenDialogParentItemDescription"}
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../..@NodeId"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-          - Name: OutputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: DialogNodeId
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogNodeIdDescription"}
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: EventArguments
-        Type: VariableTransitionEvent
-        Children:
-        - Name: VariableNodeId
-          Type: BaseVariableType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: NewValue
-          Type: BaseVariableType
-          DataType: BaseDataType
-        - Name: OldValue
-          Type: BaseVariableType
-          DataType: BaseDataType
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-          Value: ""
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-          Value: ""
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-          Value: 0
 - File: Screens/Screens.yaml
-- File: Widget/Widget.yaml
+- File: Widgets/Widgets.yaml
 - File: Dialogs/Dialogs.yaml
