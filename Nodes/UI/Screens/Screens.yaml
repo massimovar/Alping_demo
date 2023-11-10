@@ -4041,7 +4041,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 800.0
+      Value: 750.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -4245,7 +4245,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1170.0
+      Value: 1070.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -4911,7 +4911,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 420.0
+      Value: 440.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -4990,7 +4990,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 420.0
+      Value: 440.0
     - Name: DisplayValuePath
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -5027,7 +5027,7 @@ Children:
     - Name: Query
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
+      Value: "SELECT * FROM Model WHERE On = false"
     - Name: Columns
       Type: BaseObjectType
       Children:
@@ -5177,12 +5177,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1410.0
+      Value: 1450.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 420.0
+      Value: 80.0
   - Name: ComboBox1
     Type: ComboBox
     Children:
@@ -5215,6 +5215,10 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: "/Objects/Alping_demo/Model/Types/Motor"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ListBox1/SelectedItem@NodeId"
     - Name: UISelectedItem
       Type: BaseDataVariableType
       DataType: NodeId
@@ -5264,6 +5268,15 @@ Children:
       Type: BaseVariableType
       DataType: Float
       Value: 100.0
+    - Name: Query
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SELECT * FROM Model WHERE On = true"
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: ComboBoxModeEnum
+      ModellingRule: Optional
+      Value: 0
   - Name: Label4
     Type: Label
     Children:
@@ -5718,12 +5731,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1410.0
+      Value: 1450.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 220.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -5734,3 +5747,69 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 360.0
+  - Name: TextBox1
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ComboBox1/Query"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1000.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+  - Name: TextBox2
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../DataGrid1/Query"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1450.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 44.0
