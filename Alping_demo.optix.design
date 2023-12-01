@@ -23,5 +23,18 @@ Project:
    Uri: 'urn:FTOptix:S7TagImporter'
    Module: FTOptix.S7TagImporter
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CODESYSTagImporter'
+   Module: FTOptix.CODESYSTagImporter
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  10:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
  Nodes:
+ - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/S7TCPDriver1/S7TCPStation1/TagImporter.yaml

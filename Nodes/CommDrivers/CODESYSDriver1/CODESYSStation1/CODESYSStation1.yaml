@@ -1,39 +1,23 @@
-Name: S7TCPStation1
-Id: g=21ed475964cc5ffa89acfca86daf7d09
-Type: S7TCPStation
+Name: CODESYSStation1
+Id: g=792381efbeac84a191fe96ce16d28fe9
+Type: CODESYSStation
 Children:
-- Name: MaximumJobSizeInBytes
-  Type: BaseDataVariableType
-  DataType: UInt32
-  Value: 243
-- Name: MaximumGapInBytes
-  Type: BaseDataVariableType
-  DataType: UInt32
-  Value: 4
-- Name: IPAddress
+- Name: GatewayIP
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.10.220"
+  Value: "127.0.0.1"
 - Name: Port
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 102
+  Value: 1217
+- Name: PLCAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
 - Name: Timeout
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:5.0000000"
-- Name: RemoteDeviceId
-  Type: BaseDataVariableType
-  DataType: Byte
-  Value: 1
-- Name: RemoteRack
-  Type: BaseDataVariableType
-  DataType: Byte
-  Value: 0
-- Name: RemoteSlot
-  Type: BaseDataVariableType
-  DataType: Byte
-  Value: 1
 - Name: OperationCode
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode

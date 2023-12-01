@@ -9,8 +9,26 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [19,2],
     "Body": [
-     "","en-US"
+     "","en-US",
+     "Password","Password",
+     "Change User","Change User",
+     "Old password","Old password",
+     "New password","New password",
+     "ChangePasswordFormSuccessMessage","Password changed successfully",
+     "Confirm password","Confirm password",
+     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.",
+     "ChangeUserFormOutputSuccessMessage","Change User successful",
+     "Change password","Change password",
+     "ChangeUserFormOutputErrorMessage","Authentication failed",
+     "ChangeUserFormOutputPasswordExpired","Password expired",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short",
+     "ChangePasswordFormUserNotFoundMessage","User not found",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match"
     ]
    }

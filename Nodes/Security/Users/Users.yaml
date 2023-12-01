@@ -1,3 +1,25 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: Marco
+  Id: g=1fee7166a8bca108247b1015730cfbff
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=4554c43dd7da99a848f70c8e43364da0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=bf5f71b3a0575ae179977af1d68a66d6
+- Name: Giona
+  Id: g=49f5796bef2e29e53caac7f0b17f9b7c
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b3e969774d7ef00493f771f3884df5e6
+- File: administrators/administrators.yaml

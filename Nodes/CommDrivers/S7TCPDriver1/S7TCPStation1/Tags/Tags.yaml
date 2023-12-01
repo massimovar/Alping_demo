@@ -28,7 +28,6 @@ Children:
      }
     Children:
     - Name: Bool_00
-      Id: g=66ea86bb73109fdd82002589b36c21e1
       Type: S7TCPTag
       DataType: Boolean
       Value: false
@@ -113,7 +112,6 @@ Children:
         DataType: UInt32
         Value: 3
     - Name: Int_00
-      Id: g=5ffa6debc392447d89b0ca4ea3f14a36
       Type: S7TCPTag
       DataType: Int16
       Value: 0
@@ -198,7 +196,6 @@ Children:
         DataType: UInt32
         Value: 0
     - Name: Real_00
-      Id: g=52b1fc9da1e55dfd5f8673d696980cc4
       Type: S7TCPTag
       DataType: Float
       Value: 0.0
@@ -283,7 +280,6 @@ Children:
         DataType: UInt32
         Value: 0
     - Name: String_00
-      Id: g=662986ad906fdf43d48a30927d4a3780
       Type: S7TCPTag
       DataType: String
       Value: ""
@@ -294,7 +290,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -323,7 +319,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -352,7 +348,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -381,7 +377,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -675,7 +671,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -704,7 +700,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -733,7 +729,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -762,7 +758,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2833,7 +2829,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2862,7 +2858,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2891,7 +2887,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2920,7 +2916,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2949,7 +2945,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -2978,7 +2974,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3007,7 +3003,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3036,7 +3032,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3065,7 +3061,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3094,7 +3090,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3123,7 +3119,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3152,7 +3148,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3181,7 +3177,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3210,7 +3206,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3239,7 +3235,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3268,7 +3264,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3297,7 +3293,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3326,7 +3322,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3355,7 +3351,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3384,7 +3380,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3413,7 +3409,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3442,7 +3438,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3471,7 +3467,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3500,7 +3496,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3529,7 +3525,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3558,7 +3554,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3587,7 +3583,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3616,7 +3612,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3645,7 +3641,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3674,7 +3670,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3703,7 +3699,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3732,7 +3728,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3774,7 +3770,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3803,7 +3799,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3832,7 +3828,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3861,7 +3857,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3890,7 +3886,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3919,7 +3915,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3948,7 +3944,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -3977,7 +3973,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4006,7 +4002,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4035,7 +4031,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4064,7 +4060,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4093,7 +4089,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4122,7 +4118,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4151,7 +4147,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4180,7 +4176,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4209,7 +4205,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4238,7 +4234,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4267,7 +4263,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4296,7 +4292,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4325,7 +4321,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4354,7 +4350,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4383,7 +4379,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4412,7 +4408,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4441,7 +4437,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4470,7 +4466,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4499,7 +4495,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4528,7 +4524,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4557,7 +4553,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4586,7 +4582,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4615,7 +4611,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4644,7 +4640,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4673,7 +4669,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4702,7 +4698,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4731,7 +4727,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4760,7 +4756,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4789,7 +4785,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4818,7 +4814,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4847,7 +4843,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4876,7 +4872,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4905,7 +4901,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4934,7 +4930,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4963,7 +4959,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -4992,7 +4988,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5021,7 +5017,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5050,7 +5046,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5079,7 +5075,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5108,7 +5104,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5137,7 +5133,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5166,7 +5162,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5195,7 +5191,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5224,7 +5220,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5253,7 +5249,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5282,7 +5278,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5311,7 +5307,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5340,7 +5336,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5369,7 +5365,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5398,7 +5394,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5427,7 +5423,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5456,7 +5452,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5485,7 +5481,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5514,7 +5510,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5543,7 +5539,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5572,7 +5568,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5601,7 +5597,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType
@@ -5630,7 +5626,7 @@ Children:
         Value: 0
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=11;Encoding
         Value: 7
       - Name: MaximumLength
         Type: BaseDataVariableType

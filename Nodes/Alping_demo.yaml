@@ -38,7 +38,7 @@ Children:
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
-    Value: 1
+    Value: 10
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
