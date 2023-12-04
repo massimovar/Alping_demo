@@ -691,7 +691,7 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Alping_demo/UI/OnlyAdmin"
+    Value: "/Objects/Alping_demo/UI/AdminWindow"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -1097,7 +1097,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-- Name: OnlyAdmin
+- Name: AdminWindow
   Id: g=463978aa48b6f1d82ca0608722bf4c5a
   Supertype: Window
   Children:

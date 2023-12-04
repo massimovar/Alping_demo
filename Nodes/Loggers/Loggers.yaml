@@ -27,7 +27,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=d7056820645f6628f4b2433c4a2ff25d
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -55,7 +54,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=a1973a81cbd3ad40a035485d32dabb1b
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -83,7 +81,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=23bd2463023b2c16fdd74d5665fd38d6
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -111,7 +108,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=567277996295482b425b6366663447f1
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
