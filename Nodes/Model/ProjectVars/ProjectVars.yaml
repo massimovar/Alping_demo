@@ -1,0 +1,8 @@
+Name: ProjectVars
+Type: FolderType
+Children:
+- Name: WarningDialogOpen
+  Id: g=0a3166580ba4e06496ef950967684f36
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

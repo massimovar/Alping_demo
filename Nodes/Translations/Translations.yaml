@@ -9,26 +9,138 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [19,2],
+    "Dimensions": [72,3],
     "Body": [
-     "","en-US",
-     "Password","Password",
-     "Change User","Change User",
-     "Old password","Old password",
-     "New password","New password",
-     "ChangePasswordFormSuccessMessage","Password changed successfully",
-     "Confirm password","Confirm password",
-     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.",
-     "ChangeUserFormOutputSuccessMessage","Change User successful",
-     "Change password","Change password",
-     "ChangeUserFormOutputErrorMessage","Authentication failed",
-     "ChangeUserFormOutputPasswordExpired","Password expired",
-     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
-     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
-     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
-     "ChangePasswordFormPasswordTooShortMessage","Password too short",
-     "ChangePasswordFormUserNotFoundMessage","User not found",
-     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
-     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match"
+     "","en-US","it-IT",
+     "Password","Password","Password",
+     "Change User","Change User","",
+     "Old password","Old password","",
+     "New password","New password","",
+     "ChangePasswordFormSuccessMessage","Password changed successfully","",
+     "Confirm password","Confirm password","",
+     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.","",
+     "ChangeUserFormOutputSuccessMessage","Change User successful","",
+     "Change password","Change password","",
+     "ChangeUserFormOutputErrorMessage","Authentication failed","",
+     "ChangeUserFormOutputPasswordExpired","Password expired","",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password","",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used","",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently","",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short","",
+     "ChangePasswordFormUserNotFoundMessage","User not found","",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation","",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Confirm","Confirm","",
+     "Confirm All","Confirm All","",
+     "SourceName","Source Variable","",
+     "Timestamp","Timestamp","",
+     "Name","Name","Nome",
+     "Message","Message","",
+     "Active","Active","",
+     "Acked","Acked","",
+     "Confirmed","Confirmed","",
+     "Severity","Severity","",
+     "Refresh","Refresh","",
+     "From","From","",
+     "To","To","",
+     "_motor","Motor","Motore",
+     "Spindle","Temperature","Mandrino",
+     "Temperature","Temperature","Temperatura",
+     "EmptyUserList","No users in list","Nessun utente nell'elenco",
+     "Groups","Groups","Gruppi",
+     "Create","Create","Crea",
+     "Delete","Delete","Elimina",
+     "Apply","Apply","Applica",
+     "Cancel","Cancel","Annulla",
+     "Locale:","Locale:","Impostazioni locali:",
+     "PasswordChangedTooRecently","Password changed too recently","Password cambiata troppo recentemente",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","Impossibile creare un utente con nome utente vuoto",
+     "UnableToGetUsers","Unable to get users","Impossibile ottenere gli utenti",
+     "UserNotFound","User not found","Utente non trovato",
+     "PasswordAlreadyUsed","Password already used in the past","Password già utilizzata in passato",
+     "PasswordTooShort","Password too short","Password troppo corta",
+     "UnsupportedOperation","Unsupported operation","Operazione non supportata",
+     "ChangesAppliedSuccessfully","Changes applied successfully","Modifiche applicate correttamente",
+     "UsernameAlreadyExists","Username already exists","Nome utente già esistente",
+     "Save","Save","Salva",
+     "RecipeControllerDeleted","deleted","eliminata",
+     "RecipesEditorNotFound","not found","non trovato",
+     "RecipesEditorNotSet","is not set","non è impostato",
+     "Load","Load","Carica",
+     "RecipeControllerSaved","saved","salvata",
+     "RecipeControllerCreatedAndSaved","created and saved","creata e salvata",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","Il nome della ricetta è vuoto",
+     "RecipeControllerRecipe","Recipe","Ricetta",
+     "RecipeControllerRecipeApplied","Recipe applied","Ricetta applicata",
+     "RecipeControllerRecipeLoaded","Recipe loaded","Ricetta caricata",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","Variabile RecipeSchema non trovata",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","RecipeSchema non impostato",
+     "RecipesEditorRecipeNotFound","Recipe not found","Ricetta non trovata",
+     "RecipesEditorNotARecipe","is not a recipe","non è una ricetta",
+     "RecipesEditorStoreOfSchema","Store of schema","L'archivio dello schema",
+     "RecipesEditorStore","Store","Archivio",
+     "RecipesEditorNotAStore","is not a store","non è un archivio",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","EditModel dello schema"
     ]
    }
+- Name: AlarmsDictionary
+  Id: g=672e580d2a800d32de57f6ded1b187b7
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [13,3],
+    "Body": [
+     "","en-US","it-IT",
+     "_alarm1Message","Alarm 1 active!","Allarme 1 è attivo!",
+     "_alarm2Message","Alarm 2 active!","Allarme 2 è attivo!",
+     "_alarm3Message","Alarm 3 active!","Allarme 3 è attivo!",
+     "_warning1Message","warning active!","warning attivo!",
+     "_alarm4Message","Alarm 4 active!","Allarme 4 è attivo!",
+     "5","5","",
+     "/Objects/Alping_demo/CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/Bool_0{0}","/Objects/Alping_demo/CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/PLC/PLC_IN_ABS/Bool_0{0}","",
+     "2","2","",
+     "1","1","",
+     "3","3","",
+     "6","6","",
+     "4","4",""
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/translations.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Alping_demo/Translations/AlarmsDictionary"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"

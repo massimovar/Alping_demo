@@ -1,0 +1,351 @@
+Name: MyAlarms
+Id: g=920003af70e308af477c228d64c1d75e
+Type: FolderType
+Children:
+- Name: DigitalAlarm1
+  Id: g=d936ea723450d5e9b32d9ad48baa77b9
+  Type: AlpingDa
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=74c6a86ca9bbc5b8768fdd910f8b104a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=be7e7db7265262fa445ac91ea1dde6bc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=9ca0f4a625b18aede7623653c2c01ee5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On1"
+      Children:
+      - Name: Mode
+        Id: g=696de751ecccf4583a8e69fbde66011b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=41fb667f31c3e8b4f9d2e57d5e893b2c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AreaID
+    Id: g=a48297abf8d1f90a3e53e99a34b0e70b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area1"
+  - Name: Message
+    Id: g=144f942d0e6e9494408fc40eabfc3b7f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_alarm1Message"}
+- Name: DigitalAlarm2
+  Id: g=5ee39c59fff59ca4c74a821e816c7962
+  Type: AlpingDa
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=723b3cb051b2502589c3a073ab05eead
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c03b0831913f44b3d0b6926086ce6376
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=cf7f51b853467a75cb8647fd58fcaad8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On2"
+      Children:
+      - Name: Mode
+        Id: g=d926d7e35badb48dcd63f94d37137a7f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a6f385320f541214b93ab046df7c743b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AreaID
+    Id: g=1ece3115a31393e4c86ff7ff749bae52
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area2"
+  - Name: Message
+    Id: g=e7f6d499961cd19b3fd1dfd8ff3aa506
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_alarm2Message"}
+- Name: DigitalAlarm3
+  Id: g=467c8729881039d45a5df05f62b44f34
+  Type: AlpingDa
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=473601484a69d0ae76e17c9663f9fcab
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=645c24baacab2cc468096d7f83b0cec1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=734ef76434e7c3972050589954e52c27
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On3"
+      Children:
+      - Name: Mode
+        Id: g=73f1be8a7b3d5948ef5f5c939ca5dc38
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=455256d3a71f592b8d48f205042d8483
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AreaID
+    Id: g=e7387b03c5e7f8befc676a2b37bdeb0f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area3"
+  - Name: Message
+    Id: g=d86f58e605cebe18d52741260d39ebbc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_alarm3Message"}
+- Name: AlpingDw1
+  Id: g=2d681730af63af3eaf38c4da773f4b37
+  Type: AlpingDw
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=7ca79457d2d0736d36e02d8b17f43064
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=13e53b572ebc16d659cad9c27ef6ae34
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ae8d3ecd73b8f8ef0e98e049c7cf924a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/On1"
+      Children:
+      - Name: Mode
+        Id: g=5326ae3de86ec29ec469964b935838ba
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fd387634b8c17262809a15d6e3b97cc5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AreaID
+    Id: g=e93e04fbec38705cc26854b3c079f09a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Message
+    Id: g=f23ee6ab6e3650db0e42a08cf00c60e0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_warning1Message"}
+  - Name: InputValueTransitioned
+    Id: g=e70bd05630d9c74d4085c8822dd908ba
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=6eb25b4255354d4f60ad84a810d8e66f
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=339504fb7485e91dc770ee6bc0da3315
+      Type: BaseVariableType
+      DataType: VariableTransition
+      Value: 0
+    - Name: VariableNodePath
+      Id: g=af56350d0ab81ddc63ad7a13198bddee
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../InputValue"
+    - Name: VariableTransitionEventHandler1
+      Id: g=468d11f638b811ad4b735aa437c72373
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=9eedcb5c953af4e652b259e6c253c3ea
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=670af03da9e0fd94a54ff45bf386b7b8
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=6446c32eb2ddeb493420102b9cd6bc91
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=50323b2c55a4224d6d6605cd1086a414
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Id: g=a38fbe0735eb48983517a27fde07969b
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=5fcdfbabc7648e47cf353ef9c4222795
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../../../../Commands/VariableCommands@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=b04d200dbe31a25896b3fc0913dbc2f7
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=b199045e7d1ba58655de3720f6234a56
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=7e9a8b76a0ca51bb402aa85d48d664a2
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=f6611382f35d2621bafefd29629c26da
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+              Value: "/Objects/Alping_demo/Model/ProjectVars/WarningDialogOpen"
+            - Name: Value
+              Id: g=764a92b14097dfdd91ddf35b9338c3a7
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+              Value: true
+            - Name: ArrayIndex
+              Id: g=9437150165581ee2f0dadc130207524b
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+              Value: 0
+      - Name: EventArguments
+        Id: g=a11cef387be5e962e278f95e70d8dec4
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=c2e5248fd0551223e158858fa95622d2
+          Type: BaseVariableType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: NewValue
+          Id: g=112dc64a6bfb728373d7bf21abedd259
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=e5c4dbec69bd0c935003ebbdce9baf5b
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=172bba23ca80e1ff5f0b6b21a87050ea
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Id: g=7ed2164bb3ab90f5884715469f59e339
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: g=b16cfdcd48bfcdb96f7da782e797205d
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: g=f23b170309540af0c096cad8dc627276
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=a428b4468b248329f797dc44e1bcb470
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: g=35669553668d08c4ff6d8e4600000872
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: g=aa72b922e7d51dad8a35bf0880ffc620
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: g=748eea10d99e230fb6acbe6ec0011bb3
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0

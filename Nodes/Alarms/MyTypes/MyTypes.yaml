@@ -1,0 +1,96 @@
+Name: MyTypes
+Id: g=4be727544a7744109d00d2db60b8b710
+Type: FolderType
+Children:
+- Name: AlpingDa
+  Id: g=dcb46c4a7bcc27b952c57a1622aa1f38
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=2829e60d65241f76525166be1cdd4ad2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9cf9a6bbb1c2896f6c374ba9e4590866
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=5497f98b0877c33cd4f157fd93561ac0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoConfirm
+    Id: g=dfa1da83c275d64685f5f370adebb678
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=7742599750c7deb06a380c9af69e1685
+  - Name: AreaID
+    Id: g=d40bb95e7e03eee99d054f7ce681a748
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: AlpingDw
+  Id: g=7f70b5a38fb88cc5b4c6b5e4342caeb1
+  Supertype: AlpingDa
+  Children:
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=32ea39ec812cced0997b08b67751ef29
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7b891288dcde47bff799cd08ed9a69bf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=e81cbfc1cd54a3dea8cd09b238c6d20b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AreaID
+    Id: g=fa090461530f4157f9db52e955ccf050
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: AutoAcknowledge
+    Id: g=b681499865e995d38bbcff4865c6be6a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: Severity
+    Id: g=816362fa02b607d82ec2ac4cd47d0ce1
+    Type: BaseDataVariableType
+    DataType: UInt16
+    ModellingRule: Optional
+    Value: 2
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=d843f05b9148a87982a1a514a98f9f41

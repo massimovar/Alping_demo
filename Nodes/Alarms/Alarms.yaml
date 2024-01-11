@@ -1,3 +1,37 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- File: MyAlarms/MyAlarms.yaml
+- File: MyTypes/MyTypes.yaml
+- Name: ImportAndExportAlarms
+  Id: g=cdc0db6283050b7308acdf83e51ed5df
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=4c5964f3862028f9f4746c5a48dcd2a4
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+    Id: g=fa728ce3e90d2b0ae3f9c68c4bdb1bd0
+  - Class: Method
+    Name: ExportAlarms
+    Id: g=582b8cf52e06d11b669e80cb87c0b73b
+  - Name: CSVPath
+    Id: g=aa75e63e5392a2f158c65f83516f71a1
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/alarms.csv"
+  - Name: CharacterSeparator
+    Id: g=8e8766063df9197d1ab743fb1ea1c64b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=9453da6517f6243659ec613f5d4ae496
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

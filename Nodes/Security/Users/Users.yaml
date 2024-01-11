@@ -11,10 +11,22 @@ Children:
     Type: BaseVariableType
     DataType: LocaleId
     ReferenceType: HasProperty
-    Value: "en-US"
+    Value: "it-IT"
   - Class: Reference
     Type: HasGroup
     Target: g=bf5f71b3a0575ae179977af1d68a66d6
+  - Name: Language
+    Id: g=064109f405e4ba744bb8e568f155e7c4
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=e409c44130e21cf88f524255f9944663
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
 - Name: Giona
   Id: g=49f5796bef2e29e53caac7f0b17f9b7c
   Type: UserType
@@ -22,4 +34,34 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=b3e969774d7ef00493f771f3884df5e6
-- File: administrators/administrators.yaml
+  - Name: LocaleId
+    Id: g=653fee6172ce4acbb9a4738a00644aae
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: Language
+    Id: g=d7cdca85d807bb23072d0fc73a239920
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=ed8f109c76351aa810f03b8ada0548ce
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+- Name: Paolo
+  Id: g=9074d84fcdc76522bc3ea3bcc1d10222
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=bf5f71b3a0575ae179977af1d68a66d6
+  - Class: Reference
+    Type: HasGroup
+    Target: g=9173ef691a4a5a925e2a8773d3c5b9d7
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b3e969774d7ef00493f771f3884df5e6

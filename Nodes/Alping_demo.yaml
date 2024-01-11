@@ -9,13 +9,19 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4804171,"NamespaceIndex":0}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4609099,"NamespaceIndex":0}}}}]
 - Name: Authentication
   Type: PropertyGroup
   Children:
@@ -54,6 +60,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:0.1000000"
+- Name: EngineeringUnitDictionary1
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"Polli m2"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":5,"Slope":3.0,"Intercept":2.0}}]
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
@@ -69,3 +81,13 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- File: AlarmTypes/AlarmTypes.yaml
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/Alping_demo/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/Alping_demo/Recipes/RecipeSchema1/EditModel"

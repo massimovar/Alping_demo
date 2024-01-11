@@ -9,6 +9,10 @@ using FTOptix.UI;
 using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.Retentivity;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
+using FTOptix.OPCUAServer;
+using FTOptix.Recipe;
 #endregion
 
 public class ChangeUserChangePasswordButtonLogic : BaseNetLogic

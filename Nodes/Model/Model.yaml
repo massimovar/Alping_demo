@@ -2,6 +2,72 @@ Name: Model
 Type: ModelCategoryFolder
 Children:
 - Class: DataType
+  Name: AlarmsAreas
+  Id: g=8e8ee6f28aad9d41b0c91a29cb8820dc
+  Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "AlarmsAreas",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8e8ee6f28aad9d41b0c91a29cb8820dc",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": ""
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "All alarms"
+      }
+     },{
+      "Name": "Value1",
+      "Value": 1,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "Area1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Area1"
+      }
+     },{
+      "Name": "Value2",
+      "Value": 2,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "Area2"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Area2"
+      }
+     },{
+      "Name": "Value3",
+      "Value": 3,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "Area3"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Area3"
+      }
+     }]
+   }
+  Children:
+  - Name: ns=0;EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":""},"Description":{"LocaleId":"en-US","Text":"All alarms"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"Area1"},"Description":{"LocaleId":"en-US","Text":"Area1"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"Area2"},"Description":{"LocaleId":"en-US","Text":"Area2"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"Area3"},"Description":{"LocaleId":"en-US","Text":"Area3"}}}]
+- Class: DataType
   Name: DataloggerSamplingModes
   Id: g=5959753a31fbb544ff5b85322054c3c0
   Supertype: Enumeration
@@ -146,3 +212,106 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- File: ProjectVars/ProjectVars.yaml
+- Name: temperatureA
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 2.559999942779541
+- Name: temperatureB
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 2.559999942779541
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4408652
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: distance
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 12.0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 5067858
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: density
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 40
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 0
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: NamespaceIndex
+      Type: BaseVariableType
+      DataType: NamespaceIndex
+      ReferenceType: HasProperty
+      Value: 7
+- File: Retentivity/Retentivity.yaml
+- Name: MyRecipe
+  Id: g=5a58c8ff46a9f2253c7356f76143b192
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Variable3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

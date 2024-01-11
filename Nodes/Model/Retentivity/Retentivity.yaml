@@ -1,0 +1,9 @@
+Name: Retentivity
+Id: g=228f66d1baf108a6bcf6c7b787a6d7c8
+Type: FolderType
+Children:
+- Name: Variable2
+  Id: g=1f048fabed13088327c3972984312ee3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

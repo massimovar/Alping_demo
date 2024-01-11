@@ -581,3 +581,4 @@ Children:
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
 - File: ChangeUserForm1/ChangeUserForm1.yaml
+- File: UserEditor1/UserEditor1.yaml
