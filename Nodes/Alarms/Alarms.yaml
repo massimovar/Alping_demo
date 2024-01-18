@@ -35,3 +35,5 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+- File: AlpingAlarms/AlpingAlarms.yaml
+- File: AlpingAlarmsFromModel/AlpingAlarmsFromModel.yaml

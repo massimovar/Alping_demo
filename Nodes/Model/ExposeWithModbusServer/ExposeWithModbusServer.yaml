@@ -1,0 +1,19 @@
+Name: ExposeWithModbusServer
+Id: g=a6515552aac1f03be565c31cadae0414
+Type: FolderType
+Children:
+- Name: Variable2
+  Id: g=8c4c7b58b5e2b2fffc993ca41a8495bb
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: Variable1
+  Id: g=5ab444bbb20d0a328131a7493dc92428
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: Variable3
+  Id: g=d17bb471260550485c39a5aef2aa1239
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0

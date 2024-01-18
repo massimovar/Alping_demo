@@ -300,22 +300,18 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: Variable1
-    Id: g=bb04f225625de249453cd8358cde8f4c
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: Variable2
-    Id: g=6c2c48d093dcd1719f4fd8a10b11837f
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Variable3
-    Id: g=6ea4dcb549d04342d11271b689bce61c
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Variable4
-    Id: g=e6fb2eec83098800b8b84427d62ebcae
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
@@ -323,3 +319,4 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- File: ExposeWithModbusServer/ExposeWithModbusServer.yaml

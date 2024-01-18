@@ -57,10 +57,6 @@ Project:
    Uri: 'urn:FTOptix:ODBCStore'
    Module: FTOptix.ODBCStore
    Version: 1.0
-  16:
-   Uri: 'urn:FTOptix:SQLiteStore'
-   Module: FTOptix.SQLiteStore
-   Version: 1.0
   17:
    Uri: 'urn:FTOptix:CODESYS'
    Module: FTOptix.CODESYS
@@ -104,10 +100,6 @@ Project:
   27:
    Uri: 'urn:FTOptix:NativeUI:Net'
    Module: FTOptix.NativeUI.Net
-   Version: 1.0
-  28:
-   Uri: 'urn:FTOptix:SQLiteStore:Net'
-   Module: FTOptix.SQLiteStore.Net
    Version: 1.0
   29:
    Uri: 'urn:FTOptix:NetLogic'
@@ -161,16 +153,24 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  42:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  43:
+   Uri: 'urn:FTOptix:SQLiteStore:Net'
+   Module: FTOptix.SQLiteStore.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 15823
-  Objects: 1303
-  ObjectTypes: 37
-  Variables: 14457
+  TotalNodeCount: 16293
+  Objects: 1393
+  ObjectTypes: 40
+  Variables: 14827
   VariableTypes: 0
   DataTypes: 2
-  Methods: 24
-  References: 150
+  Methods: 31
+  References: 177
   ReferenceTypes: 0
-  Files: 48
+  Files: 52
  Nodes:
  - File: Nodes/Alping_demo.yaml

@@ -1,0 +1,127 @@
+Name: AlpingAlarms
+Id: g=372729e67b2a4ff9823811b1686bae97
+Type: FolderType
+Children:
+- Name: alpingDAl_1
+  Id: g=dbc151d5f3d14238984479b6f732f521
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=446e8fd1403fbb9444d1c5b027fa7fcf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=20c5e0d71e9adc81e1da95c70b8ab654
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0da64a949f3549d3a1664a11f20cf08b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Alping_demo/CommDrivers/ModbusDriver1/ModbusStation1/Tags/On1"
+      Children:
+      - Name: Mode
+        Id: g=78c7b7b2ef054ff5ab4c5f090e5b1e4c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=744709be121e87db5589e9bbc9cd0be4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+- Name: alpingDAl_2
+  Id: g=d0c0b089d64f47e5a3056dddeb20f59b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6664ec8c1288d2a45b20632ec58fda7f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=cafa2d6408ef437b7a39f2f092967871
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e17bdc77be6845818737bcaa1fc7c2a0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Alping_demo/CommDrivers/ModbusDriver1/ModbusStation1/Tags/On2"
+      Children:
+      - Name: Mode
+        Id: g=adc68270ed5b41838bef20d316c85515
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9864c4fc4417e366de12618f40b6597e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward
+- Name: alpingDAl_3
+  Id: g=db0dcdeb06994c17a8cd440f00741a3a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bff809ed361a5d19d78ce596673b74df
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=25f0bbd2fb2ae972ed6bcf6f2087e941
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=9a24a378ded147c1a4d682fa16a14ead
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Alping_demo/CommDrivers/ModbusDriver1/ModbusStation1/Tags/On3"
+      Children:
+      - Name: Mode
+        Id: g=2e39f072154d45a59759c3e6d2895d5e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=502724c4872ef44fd1b40a5dd52a2dc2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=34;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=34;i=83
+    Direction: Forward

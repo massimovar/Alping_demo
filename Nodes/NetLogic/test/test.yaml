@@ -1,0 +1,18 @@
+Name: test
+Type: FolderType
+Children:
+- Name: RuntimeNetLogic1
+  Type: NetLogic
+- Name: DesignTimeNetLogic1
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: TestMe
+  - Class: Method
+    Name: GenerateAlarmsFromComDriver
+  - Class: Method
+    Name: GenerateAlarmsFromModel

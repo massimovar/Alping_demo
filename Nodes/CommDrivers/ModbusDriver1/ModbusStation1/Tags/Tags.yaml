@@ -2,6 +2,7 @@ Name: Tags
 Type: FolderType
 Children:
 - Name: On1
+  Id: g=df16f286ae641f033104dd937b42ccd7
   Type: ModbusTag
   DataType: Boolean
   Value: false
@@ -11,6 +12,7 @@ Children:
     DataType: ModbusMemoryArea
     Value: 1
 - Name: On2
+  Id: g=6660ba1d3cb5bb09641bb81f42b68956
   Type: ModbusTag
   DataType: Boolean
   Value: false
@@ -24,6 +26,7 @@ Children:
     DataType: UInt16
     Value: 1
 - Name: On3
+  Id: g=d602068feccab30fe8fb9643ca04a8ab
   Type: ModbusTag
   DataType: Boolean
   Value: false
@@ -36,6 +39,19 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
+- Name: On4
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 10
 - Name: Speed1
   Type: ModbusTag
   DataType: Int16
